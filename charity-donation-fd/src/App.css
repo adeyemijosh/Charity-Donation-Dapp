@@ -1,0 +1,137 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  color: white;
+}
+
+.banner {
+  background-color: rgba(76, 175, 80, 0.9);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.content {
+  margin: 20px auto;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 25px;
+  border-radius: 15px;
+  width: 80%;
+  max-width: 900px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Centers content horizontally */
+}
+
+.connect-button,
+.donate-button,
+.disconnect-button {
+  /* Added disconnect button style */
+  padding: 12px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: auto;
+  /* Allows buttons to size according to text */
+}
+
+.connect-button {
+  background-color: #007bff;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 123, 255, 0.2);
+}
+
+.connect-button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 6px 10px rgba(0, 123, 255, 0.3);
+}
+
+.donate-button {
+  background-color: #28a745;
+  color: white;
+  box-shadow: 0 4px 6px rgba(40, 167, 69, 0.2);
+}
+
+.donate-button:hover {
+  background-color: #218838;
+  box-shadow: 0 6px 10px rgba(40, 167, 69, 0.3);
+}
+
+.disconnect-button {
+  /* New style for the Disconnect Wallet button */
+  background-color: #ff4d4d;
+  /* Red color */
+  color: white;
+  box-shadow: 0 4px 6px rgba(255, 77, 77, 0.2);
+}
+
+.disconnect-button:hover {
+  background-color: #e60000;
+  /* Darker red on hover */
+  box-shadow: 0 6px 10px rgba(255, 77, 77, 0.3);
+}
+
+.donation-input {
+  padding: 12px;
+  margin: 12px 0;
+  width: 80%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f4f4f4;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.donation-input:focus {
+  border-color: #007bff;
+  background-color: #fff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+}
+
+.transaction-status {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #ff9800;
+}
+
+.donation-history {
+  margin-top: 20px;
+  font-size: 1.1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+  font-size: 1rem;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #e9ecef;
+}
